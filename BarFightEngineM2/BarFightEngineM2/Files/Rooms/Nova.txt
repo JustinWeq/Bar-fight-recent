@@ -1,0 +1,22 @@
+﻿XWidth 32
+YWidth 32
+ZWidth 32
+Light X 0
+Light Y 16
+Light Z 0
+Light Power 9001
+Light Ambient 0.1
+FloorTexture red
+LeftWallTexture yellow
+RightWallTexture yellow
+FrontWallTexture yellow
+BackWallTexture yellow
+CeilingTexture red
+Music Sidechain
+FloorXDensity 5
+FloorYDensity 5
+WallXDensity 5
+WallYDensity 1
+BarX 10
+BarY 10
+BarWidth 22

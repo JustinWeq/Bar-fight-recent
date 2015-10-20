@@ -1,0 +1,196 @@
+﻿ModelDef mushroomm
+ModelDef bottle4m
+Model mushroom
+{
+ModelID mushroomm
+CollideType AABB
+OrigenX 3
+OrigenY 0
+OrigenZ -5
+HalfWidth 2
+HalfHeight 1
+HalfLength 2
+TransX 1
+TransY 1
+TransZ 1
+RotY 1.5
+}
+Model largeMushroom
+{
+ModelID mushroomm
+CollideType AABB
+OrigenX 3
+OrigenY 0
+OrigenZ -5
+HalfWidth 4
+HalfHeight 2
+HalfLength 4
+TransX 2
+TransY 2
+TransZ 2
+RotY -1.5
+}
+Model smallMushroom
+{
+ModelID mushroomm
+CollideType AABB
+OrigenX 3
+OrigenY 0
+OrigenZ -5
+HalfWidth 1
+HalfHeight 1
+HalfLength 1
+TransX 0.5
+TransY 0.5
+TransZ 0.5
+RotY 3.149
+}
+DrinkSpawner
+{
+ModelID bottle4m
+X -43
+Z -5
+Y 0
+TransX 0.3
+TransY 0.3
+TransZ 0.3
+HalfWidth 2
+HalfHeight 2
+HalfLength 2
+DrinkStrength 50
+SpawnTime 500
+}
+DrinkSpawner
+{
+ModelID bottle4m
+X -48
+Z -20
+Y 0
+TransX 0.3
+TransY 0.3
+TransZ 0.3
+HalfWidth 2
+HalfHeight 2
+HalfLength 2
+DrinkStrength 50
+SpawnTime 500
+}
+DrinkSpawner
+{
+ModelID bottle4m
+X -58
+Z -26
+Y 0
+TransX 0.3
+TransY 0.3
+TransZ 0.3
+HalfWidth 2
+HalfHeight 2
+HalfLength 2
+DrinkStrength 50
+SpawnTime 500
+}
+ModelGroup
+{
+IncludeModel mushroom
+X 0
+Y 0
+Z 12
+RotX 0
+RotZ 0
+RotY 0
+}
+ModelGroup
+{
+IncludeModel largeMushroom
+X 15
+Y 0
+Z -18
+RotX 0
+RotZ 0
+RotY 0
+}
+ModelGroup
+{
+IncludeModel smallMushroom
+X 12
+Y 0
+Z -12
+RotX 0
+RotZ 0
+RotY 3.149
+}
+ModelGroup
+{
+IncludeModel mushroom
+X 0
+Y 0
+Z -24
+RotX 0
+RotZ 0
+RotY 3.149
+}
+//end of right pool tables
+//begin of left pool tables
+ModelGroup
+{
+IncludeModel largeMushroom
+X 45
+Y 2
+Z -50
+RotX 0
+RotZ 0
+RotY 0
+}
+ModelGroup
+{
+IncludeModel largeMushroom
+X 22
+Y 0
+Z 24
+RotX 0
+RotZ 0
+RotY 0
+}
+ModelGroup
+{
+IncludeModel mushroom
+X 43
+Y 0
+Z -31
+RotX 0
+RotZ 0
+RotY 3.149
+}
+ModelGroup
+{
+IncludeModel smallMushroom
+X 14
+Y 0
+Z -24
+RotX 0
+RotZ 0
+RotY 3.149
+}
+XWidth 64
+YWidth 64
+ZWidth 64
+Light X 0
+Light Y 12
+Light Z 0
+Light Power 4
+Light Ambient 0.1
+FloorTexture body
+LeftWallTexture eye
+RightWallTexture eye
+FrontWallTexture eye
+BackWallTexture eye
+CeilingTexture tongue01_diffuse
+Music Sidechain
+FloorXDensity 5
+FloorYDensity 5
+WallXDensity 5
+WallYDensity 1
+BarX 10
+BarY 10
+BarWidth 22
